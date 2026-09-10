@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Production builds
+/frontend/build
+/frontend/dist
+/backend/build
+
+# Environment variables (NEVER push this to GitHub)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Responsive & Accessibility Settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Employer Admin Portal</title>
+    <meta name="description" content="Secure employer dashboard for job posting, applicant tracking, and pipeline management." />
+    <meta name="author" content="Your Company Name" />
+    
+    <!-- Mobile Browser Theme Color (Matches the dark enterprise blue from your UI) -->
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Favicon & Apple Touch Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /> -->
+    
+    <!-- Open Graph / Social / Slack / Teams Previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Employer Admin Portal" />
+    <meta property="og:description" content="Manage your active job postings and candidate pipeline." />
+    <!-- <meta property="og:image" content="/og-image.png" /> -->
+
+  </head>
+  <body>
+    <!-- Fallback for browsers or corporate firewalls with JavaScript disabled -->
+    <noscript>
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: system-ui, sans-serif; background-color: #f8fafc; color: #0f172a; text-align: center; padding: 20px;">
+        <div>
+          <h2>JavaScript Required</h2>
+          <p>Please enable JavaScript in your browser settings to access the Employer Portal.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <!-- React Mount Point -->
+    <div id="root"></div>
+    
+    <!-- Vite Application Entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
